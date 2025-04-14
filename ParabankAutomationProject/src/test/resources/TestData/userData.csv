@@ -1,0 +1,3 @@
+firstName,lastName,address,city,state,zipCode,phone,ssn,username,password,confirmPasswordOne,confirmPasswordTwo
+Hitesh,Kataria,"10, Test street",Varna,"Varna District",9000,0847990876,1239000,hkuser,123456,12345,123456
+Ritu,Verma,"123 Elm Street",Sofia,"Sofia District",1000,0123456789,987654321,rverma,abcdef,abcde,abcdef
