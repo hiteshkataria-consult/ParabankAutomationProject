@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="17" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T00:49:42 BST" name="All Test Suite - Set 1" finished-at="2025-04-15T00:49:47 BST" duration-ms="5081">
+    <groups>
+      <group name="Functional">
+        <method signature="RegistrationPageTests.clickRegistrationLink()[pri:1, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="clickRegistrationLink" class="com.automate.testcases.ui.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.testFillInForm()[pri:2, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="testFillInForm" class="com.automate.testcases.ui.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.fillNotMatchingPasswordsAndRegister()[pri:3, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="fillNotMatchingPasswordsAndRegister" class="com.automate.testcases.ui.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.fillMatchingPasswordsAndRegister()[pri:4, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="fillMatchingPasswordsAndRegister" class="com.automate.testcases.ui.RegistrationPageTests"/>
+      </group> <!-- Functional -->
+      <group name="Smoke">
+        <method signature="RegistrationPageTests.clickRegistrationLink()[pri:1, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="clickRegistrationLink" class="com.automate.testcases.ui.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.testFillInForm()[pri:2, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="testFillInForm" class="com.automate.testcases.ui.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.fillNotMatchingPasswordsAndRegister()[pri:3, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="fillNotMatchingPasswordsAndRegister" class="com.automate.testcases.ui.RegistrationPageTests"/>
+        <method signature="RegistrationPageTests.fillMatchingPasswordsAndRegister()[pri:4, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" name="fillMatchingPasswordsAndRegister" class="com.automate.testcases.ui.RegistrationPageTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-04-15T00:49:42 BST" name="Registration and Account actions Tests" finished-at="2025-04-15T00:49:46 BST" duration-ms="4363">
+      <class name="com.automate.testcases.ui.RegistrationPageTests">
+        <test-method is-config="true" signature="setUp(int)[pri:0, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" started-at="2025-04-15T00:49:42 BST" name="setUp" finished-at="2025-04-15T00:49:42 BST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickRegistrationLink()[pri:1, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" started-at="2025-04-15T00:49:42 BST" name="clickRegistrationLink" finished-at="2025-04-15T00:49:42 BST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegistrationLink -->
+        <test-method signature="testFillInForm()[pri:2, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" started-at="2025-04-15T00:49:42 BST" name="testFillInForm" finished-at="2025-04-15T00:49:43 BST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillInForm -->
+        <test-method signature="fillNotMatchingPasswordsAndRegister()[pri:3, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" started-at="2025-04-15T00:49:43 BST" name="fillNotMatchingPasswordsAndRegister" finished-at="2025-04-15T00:49:44 BST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillNotMatchingPasswordsAndRegister -->
+        <test-method signature="fillMatchingPasswordsAndRegister()[pri:4, instance:com.automate.testcases.ui.RegistrationPageTests@5aebe890]" started-at="2025-04-15T00:49:44 BST" name="fillMatchingPasswordsAndRegister" finished-at="2025-04-15T00:49:44 BST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillMatchingPasswordsAndRegister -->
+      </class> <!-- com.automate.testcases.ui.RegistrationPageTests -->
+      <class name="com.automate.testcases.ui.AccountPageTests">
+        <test-method is-config="true" signature="setUp(int)[pri:0, instance:com.automate.testcases.ui.AccountPageTests@6a2f6f80]" started-at="2025-04-15T00:49:44 BST" name="setUp" finished-at="2025-04-15T00:49:44 BST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickAccountManagerLink()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@6a2f6f80]" started-at="2025-04-15T00:49:44 BST" name="clickAccountManagerLink" finished-at="2025-04-15T00:49:46 BST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccountManagerLink -->
+        <test-method signature="getFirstAccountId()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@6a2f6f80]" started-at="2025-04-15T00:49:46 BST" name="getFirstAccountId" finished-at="2025-04-15T00:49:46 BST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstAccountId -->
+        <test-method signature="testInitialAvailableAmountValue()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@6a2f6f80]" started-at="2025-04-15T00:49:46 BST" name="testInitialAvailableAmountValue" finished-at="2025-04-15T00:49:46 BST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAvailableAmountValue -->
+        <test-method signature="testInitialRowBalanceValue()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@6a2f6f80]" started-at="2025-04-15T00:49:46 BST" name="testInitialRowBalanceValue" finished-at="2025-04-15T00:49:46 BST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialRowBalanceValue -->
+        <test-method signature="verifyAccountManagerTableHeaders()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@6a2f6f80]" started-at="2025-04-15T00:49:46 BST" name="verifyAccountManagerTableHeaders" finished-at="2025-04-15T00:49:46 BST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountManagerTableHeaders -->
+      </class> <!-- com.automate.testcases.ui.AccountPageTests -->
+    </test> <!-- Registration and Account actions Tests -->
+    <test started-at="2025-04-15T00:49:46 BST" name="API Tests" finished-at="2025-04-15T00:49:46 BST" duration-ms="20">
+      <class name="com.automate.testcases.api.BillPayApiTest">
+        <test-method is-config="true" signature="setUp(int)[pri:0, instance:com.automate.testcases.api.BillPayApiTest@3e96bacf]" started-at="2025-04-15T00:49:46 BST" name="setUp" finished-at="2025-04-15T00:49:46 BST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="billPay()[pri:0, instance:com.automate.testcases.api.BillPayApiTest@3e96bacf]" started-at="2025-04-15T00:49:46 BST" name="billPay" finished-at="2025-04-15T00:49:46 BST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.automate.testcases.api.BillPayApiTest.billPay() requires a @DataProvider named : testParams]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.automate.testcases.api.BillPayApiTest.billPay() requires a @DataProvider named : testParams
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billPay -->
+      </class> <!-- com.automate.testcases.api.BillPayApiTest -->
+    </test> <!-- API Tests -->
+    <test started-at="2025-04-15T00:49:46 BST" name="Account Tests after Bill pay" finished-at="2025-04-15T00:49:47 BST" duration-ms="627">
+      <class name="com.automate.testcases.ui.AccountPageTests">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.automate.testcases.ui.AccountPageTests@4470f8a6]" started-at="2025-04-15T00:49:37 BST" name="openBrowser" finished-at="2025-04-15T00:49:42 BST" duration-ms="4508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setUp(int)[pri:0, instance:com.automate.testcases.ui.AccountPageTests@4470f8a6]" started-at="2025-04-15T00:49:46 BST" name="setUp" finished-at="2025-04-15T00:49:46 BST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickAccountManagerLink()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@4470f8a6]" started-at="2025-04-15T00:49:46 BST" name="clickAccountManagerLink" finished-at="2025-04-15T00:49:46 BST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccountManagerLink -->
+        <test-method signature="verifyTableRowsAfterFirstPayBillRequest()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@4470f8a6]" started-at="2025-04-15T00:49:46 BST" name="verifyTableRowsAfterFirstPayBillRequest" finished-at="2025-04-15T00:49:47 BST" duration-ms="298" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Table row values after first billpay are not correct: Lists differ at element [1]: $510.50 != $515.50 expected [$510.50] but found [$515.50]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Table row values after first billpay are not correct: Lists differ at element [1]: $510.50 != $515.50 expected [$510.50] but found [$515.50]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:1656)
+at com.automate.testcases.ui.AccountPageTests.verifyTableRowsAfterFirstPayBillRequest(AccountPageTests.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableRowsAfterFirstPayBillRequest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automate.testcases.ui.AccountPageTests@4470f8a6]" started-at="2025-04-15T00:49:47 BST" name="closeBrowser" finished-at="2025-04-15T00:49:47 BST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automate.testcases.ui.AccountPageTests -->
+    </test> <!-- Account Tests after Bill pay -->
+  </suite> <!-- All Test Suite - Set 1 -->
+</testng-results>

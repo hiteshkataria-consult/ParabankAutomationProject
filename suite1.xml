@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite - Set 1" >
+    <parameter name="dataSet" value="0"/>
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" preserve-order="true" name="Registration and Account actions Tests">
+        <classes>
+            <class name="com.automate.testcases.ui.RegistrationPageTests">
+                <methods>
+                    <include name="clickRegistrationLink"/>
+                    <include name="testFillInForm"/>
+                    <include name="fillNotMatchingPasswordsAndRegister"/>
+                    <include name="fillMatchingPasswordsAndRegister"/>
+                    <include name="fillNotMatchingPasswordsAndRegister"/>
+                </methods>
+            </class>
+            <class name="com.automate.testcases.ui.AccountPageTests">
+                <methods>
+                    <include name="clickAccountManagerLink"/>
+                    <include name="verifyAccountManagerTableHeaders"/>
+                    <include name="testInitialRowBalanceValue"/>
+                    <include name="testInitialAvailableAmountValue"/>
+                    <include name="getFirstAccountId"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="API Tests">
+        <classes>
+            <class name="com.automate.testcases.api.BillPayApiTest">
+                <methods>
+                    <include name="billPay"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Account Tests after Bill pay">
+        <classes>
+            <class name="com.automate.testcases.ui.AccountPageTests">
+                <methods>
+                    <include name="clickAccountManagerLink"/>
+                    <include name="verifyTableRowsAfterFirstPayBillRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

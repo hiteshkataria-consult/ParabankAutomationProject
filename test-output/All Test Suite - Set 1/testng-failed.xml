@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite - Set 1]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="dataSet" value="0"/>
+  <test thread-count="5" name="API Tests(failed)">
+    <classes>
+      <class name="com.automate.testcases.api.BillPayApiTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="billPay"/>
+        </methods>
+      </class> <!-- com.automate.testcases.api.BillPayApiTest -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+  <test thread-count="5" name="Account Tests after Bill pay(failed)">
+    <classes>
+      <class name="com.automate.testcases.ui.AccountPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyTableRowsAfterFirstPayBillRequest"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.automate.testcases.ui.AccountPageTests -->
+    </classes>
+  </test> <!-- Account Tests after Bill pay(failed) -->
+</suite> <!-- Failed suite [All Test Suite - Set 1] -->

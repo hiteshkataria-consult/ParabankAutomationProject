@@ -23,13 +23,13 @@ public class BaseClass {
     @BeforeClass
   //  @Parameters({"dataSet","dataSourceType"})
     @Parameters("dataSet")
-    public void setUp(int dataSet) throws IOException {
+    public void setUp(@Optional("1") int dataSet) throws IOException {
         String filePath;
        // dataSet = Config.get("dataSet");
         String dataSourceType = Config.get("dataSourceType");
         if (dataSourceType.equalsIgnoreCase("csv"))
         {
-        	 filePath = Paths.get("resources\\TestData", "userData.csv").toString();
+        	 filePath = Paths.get("src\\test\\resources\\TestData", "userData.csv").toString();
              testParametersList = TestParameters.loadFromCSV(filePath);
         }
         
